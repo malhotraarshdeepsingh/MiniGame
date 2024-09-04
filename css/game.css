@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 15px;
+}
+.game-header {
+  background-color: #1b1b32;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 5px solid #f0e130;
+  box-shadow: 0px 0px 15px rgba(240, 225, 48, 0.7);
+}
+
+.game-header h1 {
+  font-size: 24px;
+  color: #f0e130;
+  text-shadow: 3px 3px #ff5733;
+}
+
+.game-header p {
+  font-size: 14px;
+  color: #fff;
+}
+
 .background {
   background: rgb(52, 166, 251);
   table-layout: fixed;
@@ -27,7 +64,9 @@
   overflow: hidden;
   max-width: 600px;
   max-height: 450px;
-  position: relative;
+  position: absolute;
+  margin: auto;
+  top: calc(50vh - 180px);
 }
 
 .lost .player {
