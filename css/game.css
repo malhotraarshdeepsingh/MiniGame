@@ -20,6 +20,8 @@ h1, h2, h3, p {
   background-color: #1b1b32;
   padding: 20px;
   width: 100%;
+  border: none;
+  box-shadow: none;
 }
 
 .game-header h1 {
